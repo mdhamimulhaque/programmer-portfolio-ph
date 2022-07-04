@@ -33,9 +33,6 @@
     margin-top: 17px;
     margin-bottom: 10px;
   }
-  .text-area p {
-   text-align: justify;
-  }
 
   .img-area img {
     width: 100%;
@@ -97,3 +94,51 @@
     text-align: center;
     padding: 150px 0 50px ;
   }
+
+
+  @media screen and (min-width: 320px) and (max-width: 992px) {
+    h1{font-size: 39px;}
+    h2{font-size: 32px;}
+    h4{font-size: 20px;}
+    .card-title{
+        font-size: 32px;
+    }
+    .order-2{order: 2;}
+    .order-1{order: 1;}
+      
+    p{
+        padding-right: 5px;
+        overflow-x: hidden;
+    }
+    .flex {
+        flex-direction: column;
+      }
+
+      .text-area {
+        width: 100%;
+        padding:0 30px;
+        margin-bottom: 50px;
+      }
+      .img-area {
+        width: 100%;
+        padding: 0 30px;
+        margin-bottom: 20px;
+      }
+
+      .card-box {
+        width: 100%;
+        padding: 50px 10px;
+        box-shadow: 10px 10px 40px #B9B9B9;
+        margin: 0 0 50px 0px;
+        border-radius: 10px;
+      }
+      .exprience-area {
+        padding-left: 0px;
+        margin: 50px 30px 0;
+      }
+
+      footer{
+        padding: 90px 0 50px ;
+      }
+  }
+
